@@ -1,8 +1,10 @@
 from datetime import datetime
 """
 ```python
+    >>> from HelloWorld import HelloWorld
     >>> agent = HelloWorld()
     >>> print(agent)
+    Hello World!
 ```
 """
 __author__ = 'David Chou'
