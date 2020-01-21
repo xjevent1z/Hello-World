@@ -26,6 +26,9 @@ class HelloWorld:
     def __str__(self):
         return self.string
 
+    def __call__(self):
+        self.string = 'Fuck the World!'
+
 if __name__ == "__main__":
     agent = HelloWorld()
     print(agent)
